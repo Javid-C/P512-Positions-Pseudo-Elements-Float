@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.feature {
+    display: block;
+    width: 500px;
+    height: 700px;
+    background-image: url(../images/nike-just-do-it.jpg);
+    background-position: center;
+    text-decoration: none;
+    position: relative;
+}
+
+.shop {
+    width: 170px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 1);
+    padding-top: 10px;
+    padding-left: 27px;
+    border-radius: 35px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+}
+
+.shop:hover {
+    background-color: rgba(255, 255, 255, .7);
+}
+
+
+/* 
+body {
+    height: 300vh;
+    width: 100vw;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+    position: relative;
+    top: 40px;
+    left: 40px;
+    z-index: -1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    border: 2px solid black;
+    background-color: grey;
+    position: sticky;
+    top: 20px;
+    left: 0;
+}
+ */
+
+
+/* .little-box {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+} */
+
+
+/* .back-to-top {
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    border-radius: 50%;
+    padding: 20px;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+} */
